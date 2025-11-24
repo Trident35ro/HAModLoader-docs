@@ -95,6 +95,12 @@ const config = {
             position: 'left',
             label: 'Tutorial',
           },
+          {to: '/blog', label: 'Blog', position: 'left'},
+          {
+            href: 'https://github.com/facebook/docusaurus',
+            label: 'GitHub',
+            position: 'right',
+          },
         ],
       },
       footer: {
@@ -104,8 +110,8 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Documentations',
-                to: '/docs/introduction',
+                label: 'Tutorial',
+                to: '/docs/intro',
               },
             ],
           },
@@ -113,25 +119,29 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Discord',
-                href: 'https://discord.gg/TYEhNVmXhw',
+                label: 'Stack Overflow',
+                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
               },
               {
-                label: 'Reddit',
-                href: 'https://www.reddit.com/r/HAModLoader',
+                label: 'Discord',
+                href: 'https://discordapp.com/invite/docusaurus',
+              },
+              {
+                label: 'X',
+                href: 'https://x.com/docusaurus',
               },
             ],
           },
           {
             title: 'More',
             items: [
-     //         {
-     //           label: 'Blog',
-     //           to: '/blog',
-     //         },
               {
-                label: 'Downloads',
-                href: 'https://github.com/Trident35ro/HAModLoader/releases',
+                label: 'Blog',
+                to: '/blog',
+              },
+              {
+                label: 'GitHub',
+                href: 'https://github.com/facebook/docusaurus',
               },
             ],
           },
