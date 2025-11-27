@@ -20,14 +20,14 @@ const config = {
   },
 
   // Set the production url of your site here
-  url: 'https://Trident35ro.github.io',
+  url: 'https://haml-team.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/HAModLoader-docs/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'Trident35ro', // Usually your GitHub org/user name.
+  organizationName: 'HAMl Team', // Usually your GitHub org/user name.
   projectName: 'HAModLoader-docs', // Usually your repo name.
 
   onBrokenLinks: 'warn',
@@ -131,7 +131,7 @@ const config = {
      //         },
               {
                 label: 'Downloads',
-                href: 'https://github.com/Trident35ro/HAModLoader/releases',
+                href: 'https://github.com/HAML-Team/HAModLoader/releases',
               },
             ],
           },
